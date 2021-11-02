@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter";
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 700;
+}
+p {
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.ad {
+    font-family: "Lexend Deca";
+}
+
+.main {
+    margin: auto;
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.content {
+    background-color: hsl(244, 38%, 16%);
+    padding: 5% 10%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.highlight-text {
+    color: hsl(277, 64%, 61%);
+}
+
+.text {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.feature {
+    text-align: center;
+}
+.img-header {
+    background: linear-gradient(to top, #ac4bec80, #ac4bec80), url("images/image-header-desktop.jpg") no-repeat top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.attribution {
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    body {
+        text-align: center;
+    }
+    .main {
+        width: 50%;
+        margin-top: 5%;   
+    }
+    .img-header {
+        background: linear-gradient(to top, #ac4bec80, #ac4bec80), url("images/image-header-mobile.jpg") no-repeat top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        height: 20rem;
+    }
+    .content {
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+    }
+}
+@media (max-width: 860px) {
+    .main {
+        width: 80%;  
+    }
+}
+
+@media (max-width: 375px) {
+    .img-header {
+        height: 10rem;
+    }
+}
